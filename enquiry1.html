@@ -1,0 +1,25 @@
+      <input type="number" name="number" value="" id="rows">
+      <button type="button" name="button" onclick="subsTotal()">SubsTotal</button>
+      <button type="button" name="button" onclick="rcbTable()">RcbTotal</button>
+      <button type="button" name="button" onclick="createCommonTable('appinstalled')">AppinstalledTotal</button>
+      <button type="button" name="button" onclick="createCommonTable('applaunched')">ApplaunchedhereTotal</button>
+      <button type="button" name="button" onclick="createCommonTable('beforeinstallprompt')">BipTotal</button>
+      <div id="totalTable"> </div>
+      <div id="dynamicable"> </div>
+      <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th {
+        border: 1px solid #dddddd;
+        text-align: centre;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
